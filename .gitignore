@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Trained models / large artifacts
+*.h5
+*.keras
+*.pt
+*.pth
+
+# Data
+data/
+*.zip
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

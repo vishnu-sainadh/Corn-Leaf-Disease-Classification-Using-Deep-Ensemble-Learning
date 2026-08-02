@@ -7,6 +7,7 @@ Classifying corn (maize) leaf images into four disease categories using a **deep
 ![Keras](https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ![Model predictions on corn leaf images](assets/predictions.png)
 
@@ -127,6 +128,14 @@ The notebooks were built in Google Colab with the dataset stored on Google Drive
    - `notebooks/01_data_preparation.ipynb` to balance, augment, and split the data.
    - each notebook in `notebooks/02_models/` to train and save the four base models.
    - `notebooks/03_deep_ensemble.ipynb` to combine the models and evaluate the ensemble.
+
+Open the notebooks directly in Colab:
+
+[![Data Preparation](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vishnu-sainadh/Corn-Leaf-Disease-Classification-Using-Deep-Ensemble-Learning/blob/main/notebooks/01_data_preparation.ipynb) Data preparation
+
+[![Deep Ensemble](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vishnu-sainadh/Corn-Leaf-Disease-Classification-Using-Deep-Ensemble-Learning/blob/main/notebooks/03_deep_ensemble.ipynb) Deep ensemble
+
+> Note: the trained `.h5` model files are not included in the repository. Run the four model notebooks in `notebooks/02_models/` to generate them before running the ensemble.
 
 ## Future Scope
 
